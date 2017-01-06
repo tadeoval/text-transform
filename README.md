@@ -1,1 +1,0 @@
-Text transformer made with React, just for fun.
