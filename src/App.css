@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: spin infinite 5s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: 1.5em;
+}
+
+.container{
+  display: table;
+  width: 90%;
+}
+
+.left-column, .right-column{
+  display: table-cell;
+  width: 40%;
+}
+
+.left-column{
+  margin-left: 10%;
+}
+
+textarea{
+  height: 6em;
+  min-width: 60%;
+  font-size: 1em;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
