@@ -2,8 +2,9 @@
   "name": "hello-world",
   "version": "0.0.1",
   "private": true,
+  "homepage":"https://tadeoval.github.io/text-transform",
   "devDependencies": {
-    "react-scripts": "0.1.0"
+    "react-scripts": "0.2.0"
   },
   "dependencies": {
     "react": "^15.2.1",
